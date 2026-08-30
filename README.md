@@ -9,7 +9,7 @@ workout-exercise pairing. Built with Flask, SQLAlchemy, and Marshmallow.
 ~Inside bash run the following commands in order:
 
 ```bash
-git clone https://github.com/<your-username>/flask_sqlalchemy_lab.git
+git clone https://github.com/<millionmureithimburu>/flask_sqlalchemy_lab.git
 
 cd flask_sqlalchemy_lab
 
