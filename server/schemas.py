@@ -10,7 +10,7 @@ class ExerciseSchema(Schema):
         required=True,
         validate=validate.OneOf(["strength", "cardio", "flexibility","balance"])
     )
-    equipment_needed= fields.Bool(load_default = True)
+    equipment_needed= fields.Bool(load_default = False)
 
 class WorkoutExerciseSchema(Schema):
     id = fields.Int(dump_only=True)
